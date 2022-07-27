@@ -7,7 +7,7 @@ import {
   Footer,
 } from '../components/components'
 import Head from 'next/head'
-import { client } from '../lib/client';
+import { client } from '../Lib/client';
 import products from '../components/Products';
 
 
