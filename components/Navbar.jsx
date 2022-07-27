@@ -13,7 +13,7 @@ const Navbar = () => {
 
     <section id="homeNav" className="navParent">
       <Link href="/">
-        <img src={logo2} className="logo" alt="" srcset="" />
+        <img src={logo2} className="logo" alt="" srcSet="" />
       </Link>
 
       <div>
