@@ -6,18 +6,18 @@ import { useStateContext } from '../context/StateContext';
 
 const logo2 = new URL('../assets/img/logo-2.jpg', import.meta.url)
 
-const navbar = () => {
+const Navbar = () => {
   const { showCart, setShowCart, totalQuantities } = useStateContext();
   
   return (
 
     <section id="homeNav" className="navParent">
       <Link href="/">
-        <img src={logo2} class="logo" alt="" srcset="" />
+        <img src={logo2} className="logo" alt="" srcset="" />
       </Link>
 
       <div>
-        <ul id="navbar">
+        <ul id="Navbar">
           <Link href='/'>
             <li><a className="active">Home</a></li>
           </Link>
@@ -52,4 +52,4 @@ const navbar = () => {
   )
 }
 
-export default navbar
+export default Navbar

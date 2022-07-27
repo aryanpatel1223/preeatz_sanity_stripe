@@ -40,7 +40,7 @@ const home = ({ products, bannerData }) => {
           <Newsletter />
 
         </div>
-        <Footer class="section-p1" />
+        <Footer className="section-p1" />
       </main>
     </>
   )

@@ -7,7 +7,7 @@ import { urlFor } from '../Lib/client';
 const products = ({ product: { image, name, slug, price } }) => {
   return (
 
-    <section id="Product1" class="section-p1">
+    <section id="Product1" className="section-p1">
       <div>
         {/* <Link href={'/product/${slug.current}'}>
           <div className="product-card">
@@ -23,23 +23,23 @@ const products = ({ product: { image, name, slug, price } }) => {
         </Link> */}
       </div>
       <Link href={`/product/${slug.current}`}>
-        {/* <div class="pro-container" /> */}
+        {/* <div className="pro-container" /> */}
         <div className='pro'>
           <img src={urlFor(image[0])} alt="" />
 
-          <div class="des">
+          <div className="des">
             <span>PreEatz</span>
             <h5>{name}</h5>
-            <div class="star">
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
+            <div className="star">
+              <i className="fas fa-star"></i>
+              <i className="fas fa-star"></i>
+              <i className="fas fa-star"></i>
+              <i className="fas fa-star"></i>
+              <i className="fas fa-star"></i>
             </div>
             <h4>${price}</h4>
           </div>
-          <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+          <a href="#"><i className="fa-solid fa-cart-shopping cart"></i></a>
         </div>
       </Link>
     </section >
