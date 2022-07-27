@@ -2,7 +2,7 @@ import React from 'react'
 import Head from 'next/head'
 import { AiOutlineMinus, AiOutLinePLus, AiFillStar, AioutlineStar, AiOutlinePlus} from 'react-icons/ai';
 
-import { client, urlFor } from '../../Lib/client';
+import { client, urlFor } from '../../lib/client';
 import { useStateContext } from '../../context/StateContext';
 import { useState } from 'react';
 import { Navbar } from '../../components/components';
